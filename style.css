@@ -1,0 +1,15 @@
+#container {
+    margin: 10%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+
+.square {
+    border: 3px solid;
+    border-color: rgb(122, 37, 37);
+    aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
