@@ -8,8 +8,13 @@
 .square {
     border: 3px solid;
     border-color: rgb(122, 37, 37);
+    background-color: white;
     aspect-ratio: 1/1;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+
+.square.color {
+    color: black;
 }
